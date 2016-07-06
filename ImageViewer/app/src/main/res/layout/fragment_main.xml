@@ -21,25 +21,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_below="@+id/textView">
+        android:layout_below="@+id/textView"
+        android:weightSum="1">
 
     <ImageView
         android:layout_width="157dp"
         android:layout_height="119dp"
         android:id="@+id/imageView1"
+        android:layout_gravity="center_horizontal"
         android:src="@drawable/l1" />
 
     <ImageView
-        android:layout_width="222dp"
-        android:layout_height="178dp"
+        android:layout_width="193dp"
+        android:layout_height="154dp"
         android:id="@+id/imageView2"
-        android:src="@drawable/l3" />
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/l2" />
 
     <ImageView
-        android:layout_width="318dp"
-        android:layout_height="182dp"
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
         android:id="@+id/imageView3"
-        android:src="@drawable/l2" />
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/l3"
+        android:layout_weight="0.19" />
     </LinearLayout>
 
 
